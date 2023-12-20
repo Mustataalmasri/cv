@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100;300;700&family=Poppins:ital,wght@0,200;0,300;1,300&family=Roboto:ital,wght@1,100&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  img{
+    border-radius: 50%;
+    clear: both;
+    padding: 4px 4px 6px 9px;
+    margin-top: 40px;
+  }
+  h1{
+    color:  white;
+    text-align: center;
+  }
+ 
+  p{
+    text-align: center;
+  }
+  body {
+   font-family: Noto Kufi Arabic;
+  } 
+  a {
+    text-decoration: none;
+    color: rgb(16, 131, 177);
+  }
+
+ 
+  ul {
+    list-style: none;
+ 
+  }
+  
+  /* Header Start */
+header  {
+  height: 100vh;
+  background-color:black; 
+
+}
+
+ .navbar {
+  background-color:#000000;
+  border-bottom: 3px solid red; 
+  position: fixed;
+  /* z-index: 9999; */
+  width:100%;
+  padding: 1.5rem 2rem ;
+
+}
+#home #logo{
+  color: white;
+  font-weight: 600;
+  font-size: 26px;
+  text-align: left;
+}
+ .navbar nav{
+  display: flex;
+  margin:auto;
+  justify-content:space-between;
+  align-items:center;
+  max-width: 1100px;
+
+}
+
+
+ .navbar nav ul{
+  display: flex;
+  justify-content:space-center;
+  align-items:flex-start;
+
+}
+ .navbar nav ul a{
+  color: white;
+margin:0 15px;
+font-weight: 600;
+font-size: large;
+}
+
+.header-content{
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  max-width: 1100px;
+  margin: auto;
+  height: 100%;
+  align-items: center;
+
+  padding: 5rem 2rem;
+}
+.header-content img{
+max-width: 450px;
+width: 300px;
+height: 300px;
+
+}
+.header-text p{
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+}
+.header-text h1{
+  font-size: 60px;
+  font-weight: 700;
+}
+/*Education*/
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 10px; /* 5px rounded corners */
+  background-color: #ffffff;
+}
+
+.card {
+  border: 1px solid black;
+  margin: auto;
+}
+
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.btn-education :hover {
+  background: #e4c9bc;
+}
+
+
+
+.primary-text {
+  color: #e96711;
+}
+#education {
+  background: rgb(10, 100, 202);
+  padding: 5rem 2rem;
+}
+
+#education .title h2 {
+  color: #161618;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  color: #9d00ff;
+  font-size: 30px;
+  /* margin-bottom: 20px; */
+}
+
+.card h4 {
+  color: #ff8800;
+  font-size: 30px;
+  /* margin-bottom: 20px; */
+}
+.card h5 {
+  font-size: large;
+  text-align: center;
+}
+#education .title p {
+  color: #000000;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: left;
+  
+}
+#education .title {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+#education .education-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#education .education-items .education-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+
+#education .education-items .education-item img {
+  width: 80px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+#education .education-items .education-item h3 {
+  color: #383848;
+  border-bottom: 1px dashed #b63636;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+#education .education-items .education-item span {
+  position: absolute;
+  left: 0px;
+  top: 0;
+}
+
+#education .education-items .education-item p {
+  margin-top: 10px;
+}
+
+ .btn-education {
+  display: block;
+  height: 50px;
+  width: 150px;
+  margin: auto;
+  border: none;
+  margin-top: 50px; 
+  background: #9ff8ee;
+  font-size: large  ;
+}
+#contact {
+  background: #ffffff;
+  padding: 5rem ;
+}
+#contact .container {
+  max-width: 900px;
+}
+#contact .contact-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#contact .contact-info {
+  width: 50%;
+  margin: 30px 0;
+}
+#contact .contact-info h3 {
+  font-size: 40px;
+  color: #08085e;
+  margin-bottom: 50px;
+  text-align: center;
+}
+#contact .contact-info p {
+  color: #000000;
+  font-weight: 400;
+}
+form {
+  width: 50%;
+}
+form input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 20px 15px;
+  margin: 20px 0;
+  border: none;
+  background-color: #e3e2dd;
+}
+#footer {
+  background-color: #383848;
+  text-align: center;
+  color: #fff;
+  padding: 15px 0;
+  font-size: 18 px;
+}
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: right;
+  text-decoration: none;
+  text-align: center;
+  margin-left:60px;
+  margin-top: 30px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.8;
+
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  border-radius: 50%;
+
+}
+
+/* telegram */
+.fa-telegram {
+  background: #55ACEE;
+  color: white; 
+ border-radius: 50%;
+
+}
+/* instagram */
+.fa-instagram {
+  background: #b655ee;
+  color: rgb(255, 255, 255);
+  border-radius: 50%;
+ 
+}
+  
+
+/* Medium Screen + Tablet */
+@media (max-width: 1000px) {
+  #navbar img {
+    margin-left: 20px;
+  }
+
+  nav ul {
+    margin-right: 20px;
+  }
+
+  nav ul li a {
+    padding: 10px;
+  }
+
+  header .content h1 {
+    font-size: 28px;
+  }
+
+  #education .education-items {
+    display: block;
+  }
+
+  #contact .contact-content {
+    flex-direction: column;
+  }
+
+  /* Mobile Devices */
+  @media (max-width: 600px) {
+    #navbar {
+      flex-direction: column;
+    }
+
+    #navbar img {
+      margin-bottom: 20px;
+    }
+
+    header .content h1 {
+      font-size: 18px;
+    }
+
+    header .content p {
+      font-size: 14px;
+    }
+
+    #education .education-items .education-item {
+      margin: 20px 10px;
+    }
+
+  
+
+    #contact .contact-info,
+    form {
+      width: 80%;
+    }
+  }
+}
